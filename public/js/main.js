@@ -46,7 +46,7 @@ $(window).load( function() {
         var hometext = $('.home')
 
         hometext.css({
-            "height": $(window).height() + "px"
+            "height": $(window).height()/2 + "px"
         });
     }
     centerInit();
